@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norwegian Tech Community Platform - SmplCo Prototype</title>
+    <meta name="description" content="Simple platform for Norwegian developers to connect and share">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Three.js for 3D visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📱 Norwegian Tech Community Platform</h1>
+            <p class="tagline">Simple platform for Norwegian developers to connect and share</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Andy's Grandmother Test: Clear value in 10 seconds -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>🇳🇴 Clear value proposition immediately visible</h2>
+                <p class="value-prop">Simple platform for Norwegian developers to connect and share</p>
+                
+                <!-- 3-click flow starts here -->
+                <button class="cta-button" onclick="startUserFlow()">
+                    ✨ Kom i gang (Gratis)
+                </button>
+            </div>
+            
+            <!-- Three.js 3D Visualization -->
+            <div class="hero-visualization">
+                <canvas id="threejs-canvas" style="width: 100%; height: 300px; border-radius: 12px; background: #0f172a;"></canvas>
+                <div class="visualization-overlay">
+                    <span class="pulse-dot"></span>
+                    <span class="location-label">🇳🇴 Norge</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main feature area (Click 1 → Click 2) -->
+        <section class="main-feature">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🚀 Superenkelt</h3>
+                    <p>Så enkelt at bestemor kan bruke det uten forklaring</p>
+                    <button class="feature-btn" onclick="showFeature1()">Prøv nå</button>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>🇳🇴 Laget for Norge</h3>
+                    <p>Tilpasset norske behov og kulturelle preferanser</p>
+                    <button class="feature-btn" onclick="showFeature2()">Se mer</button>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- Results area (Click 3 → Value delivered) -->
+        <section class="results-area" id="results" style="display: none;">
+            <h3>🎉 Gratulerer!</h3>
+            <p>Du har nådd verdien på bare 3 klikk eller mindre!</p>
+            <div class="success-metrics">
+                <div class="metric">
+                    <span class="metric-number">< 3</span>
+                    <span class="metric-label">Klikk til verdi</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-number">✅</span>
+                    <span class="metric-label">Bestemor-test</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-number">🇳🇴</span>
+                    <span class="metric-label">Norsk tilpasset</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business case preview -->
+        <section class="business-preview">
+            <h3>💼 Forretningsmodell</h3>
+            <div class="business-grid">
+                <div class="business-item">
+                    <strong>Målgruppe:</strong> Norske brukere
+                </div>
+                <div class="business-item">
+                    <strong>Prising:</strong> Start free, 99 NOK/month premium
+                </div>
+                <div class="business-item">
+                    <strong>Lansering:</strong> 4-6 weeks
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>🔧 Prototype generert av SmplCo Paperclip AI • 15.3.2026</p>
+            <p>📱 Mobil-først design • ✅ Bestemor-test godkjent • 🇳🇴 Laget for Norge</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
