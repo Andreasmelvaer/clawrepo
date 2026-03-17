@@ -1,0 +1,25 @@
+{
+  "name": "simplenorwegianevent",
+  "version": "1.0.0",
+  "description": "Ultra-simple event creation for Norwegian communities",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "prototype",
+    "norway",
+    "smplco",
+    "norwegian"
+  ],
+  "author": "SmplCo Prototype Generator",
+  "license": "MIT",
+  "metadata": {
+    "sessionId": "fallback-1773771155860",
+    "created": "2026-03-17T18:12:35.865Z",
+    "qualityScore": 0,
+    "approved": false,
+    "norwayFocused": true,
+    "vm2026Related": false
+  }
+}
